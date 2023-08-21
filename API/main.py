@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-usuarios = [] #Armazenando os usuarios na memoria
+usuarios = [] # Armazenando os usuarios na memoria
 
 class Usuario:
     def __init__(self, cpf, nome, data_nascimento):
